@@ -1,12 +1,12 @@
 import { React } from "react";
 
-function Header() {
+function Heading() {
   return (
     <div>
-      <Header>
+      <header>
         <h1>Keeper</h1>
-      </Header>
+      </header>
     </div>
   );
 }
-export { Header };
+export { Heading };

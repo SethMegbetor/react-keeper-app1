@@ -1,11 +1,9 @@
 import { React } from "react";
-import { Header } from "./Header";
+import { Heading } from "./Header";
 
 function App() {
   return (
-    <div className="header">
-      <Header/>
-    </div>
+      <Heading />
   );
 }
-export {App}
+export { App };
