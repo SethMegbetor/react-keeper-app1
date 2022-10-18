@@ -4,8 +4,14 @@ import Footer from "./Footer";
 import Note from "./Note";
 import { notes } from "../notes";
 
-function NoteCard(notes) {
-  return <Note title={notes.title} content={notes.content} />;
+function NoteCard(noteItem) {
+  return (
+    <Note
+      key={noteItem.key}
+      title={noteItem.title}
+      content={noteItem.content}
+    />
+  );
 }
 
 function App(props) {
